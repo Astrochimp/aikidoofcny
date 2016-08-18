@@ -1,6 +1,6 @@
 /*!
- * Start Bootstrap - Grayscale v1.1.1 (http://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2016 Start Bootstrap
+ * Start Bootstrap - Aikido CNY v1.1.1 (http://startbootstrap.com/template-overviews/grayscale)
+ * Copyright 2013-2016 Marcello Prattico
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
@@ -124,7 +124,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  background: url(../img/jokata.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -220,17 +220,54 @@ a:focus {
 .content-section {
   padding-top: 100px;
 }
-.download-section {
+
+
+.classes-section {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-  background-color: black;
+  background-color:black;
+  background: url(../img/trees-fog.jpg) no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
+
+
+.schedule-section {
+  width: 100%;
+  padding: 50px 0;
+  color: white;
+  background-color:black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.schedule-section ul {
+  list-style: none;
+  margin:0px;
+  padding:0px;
+}
+
+.schedule-section li {
+  list-style: none;
+  display:block;
+  margin:10px auto 10px auto;
+  padding:15px auto 5px auto;
+  border:1px solid #333;
+}
+
+.schedule-section h3 {
+  color:#42DCA3;
+}
+
+.schedule-section li strong {
+  color:#ff9900;
+}
+
 #map {
   width: 100%;
   height: 200px;
